@@ -1,0 +1,112 @@
+{
+    "version" : 8,
+    "sources": {
+        "example_source": {
+            "type": "vector",
+            "url": "pmtiles://data/firenze.pmtiles",
+            "attribution": "© <a href='https://openstreetmap.org'>OpenStreetMap</a>"
+        }
+    },
+    "layers": [
+        {
+            "id": "earth",
+            "source": "example_source",
+            "source-layer": "earth",
+            "type": "fill",
+            "paint": {
+                "fill-color": "gray"
+            }
+        },
+        {
+            "id": "landcover",
+            "source": "example_source",
+            "source-layer": "landcover",
+            "type": "fill",
+            "paint": {
+                "fill-color": "transparent"
+            }
+        },
+        {
+            "id": "landuse",
+            "source": "example_source",
+            "source-layer": "landuse",
+            "type": "fill",
+            "paint": {
+                "fill-color": "steelblue"
+            }
+        },
+        {
+            "id": "natural",
+            "source": "example_source",
+            "source-layer": "natural",
+            "type": "fill",
+            "paint": {
+                "fill-color": "beige" 
+            }
+        },
+        {
+            "id": "buildings",
+            "source": "example_source",
+            "source-layer": "buildings",
+            "type": "fill",
+            "paint": {
+                "fill-color": "yellow"
+            }
+        },
+        {
+            "id": "roads",
+            "source": "example_source",
+            "source-layer": "roads",
+            "type": "line",
+            "paint": {
+                "line-color": "black"
+            }
+        },
+        {
+            "id": "phisical_line",
+            "source": "example_source",
+            "source-layer": "phisical_line",
+            "type": "line",
+            "paint": {
+                "line-color": "darkseagreen"
+            }
+        },
+        {
+            "id": "transit",
+            "source": "example_source",
+            "source-layer": "transit",
+            "type": "line",
+            "paint": {
+                "line-color": "darkmagenta"
+            }
+        },
+        {
+            "id": "places",
+            "source": "example_source",
+            "source-layer": "places",
+            "type": "circle",
+            "paint": {
+                "circle-color": "orange"
+            }
+        },
+        {
+            "id": "pois",
+            "source": "example_source",
+            "source-layer": "pois",
+            "type": "circle",
+            "paint": {
+                "circle-color": "brown"
+            }
+        },
+        {
+            "id": "mask",
+            "source": "example_source",
+            "source-layer": "mask",
+            "type": "fill",
+            "paint": {
+                "fill-color": "white"
+            }
+        }
+        
+    ]
+}
